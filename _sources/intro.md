@@ -1,4 +1,14 @@
-# hallo
+# Sistem Persamaan Linear
+
+## Definisi Sistem Persamaan Linear
+
+## Solusi Persamaan Linear
+
+### Eliminasi
+
+### Eliminasi Gaus
+
+## Solusi Grafik
 
 This is a small sample book to give you a feel for how book content is
 structured.
