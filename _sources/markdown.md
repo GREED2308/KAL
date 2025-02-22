@@ -7,6 +7,8 @@ Di mana:
 
 $x_1,x_2​,…,x_n$​ adalah variabel.
 $a_1​,a_2,…,a_n$​ adalah koefisien (angka yang mengalikan variabel).
+
+
 b adalah konstanta (angka tetap).
 
 Contoh sederhana:
