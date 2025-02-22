@@ -1,6 +1,6 @@
 # Sistem Persamaan Linear
 
-1. Apa itu Sistem Persamaan Linear?
+## 1. Apa itu Sistem Persamaan Linear?
 
 Sistem persamaan linear adalah kumpulan persamaan yang memiliki variabel yang sama.
 Contohnya, jika kita punya dua persamaan:
@@ -10,7 +10,7 @@ Contohnya, jika kita punya dua persamaan:
     
 Ini adalah sistem persamaan linear karena ada dua persamaan yang mengandung variabel x dan y.
 
-2. Jenis-jenis Sistem Persamaan Linear
+## 2. Jenis-jenis Sistem Persamaan Linear
 
 Dua variabel: Misalnya x dan y. Contoh:
 
@@ -23,7 +23,7 @@ Tiga variabel: Misalnya x,y,z. Contoh:
     2x−y+3z=14
     x−4y−z=2
 
-3. Metode Penyelesaian
+## 3. Metode Penyelesaian
 
 Ada beberapa cara untuk menyelesaikan sistem persamaan linear:
 
