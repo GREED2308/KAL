@@ -10,7 +10,7 @@ Ini adalah sistem persamaan linear karena ada dua persamaan yang mengandung vari
 
 2. Jenis-jenis Sistem Persamaan Linear
 
-    Dua variabel: Misalnya xx dan yy. Contoh:
+    Dua variabel: Misalnya x dan y. Contoh:
     x+y=10
     2x−y=5
 
