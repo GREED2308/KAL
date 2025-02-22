@@ -1,12 +1,12 @@
 # Definisi Persamaan Linear
 
-Persamaan linear adalah sebuah persamaan matematika yang hubungan antara variabelnya membentuk garis lurus jika digambarkan dalam grafik. Biasanya, persamaan linear memiliki bentuk umum seperti:
-a1+x2+⋯+anxn=b
+Persamaan linear adalah sebuah persamaan matematika yang hubungan antara variabelnya membentuk garis lurus jika digambarkan dalam grafik. Biasanya, persamaan linear memiliki bentuk umum seperti:*
+a_1+x_2+⋯+a_nx_n=b
 
 Di mana:
 
-    $x_1$​,$x_2$​,…,$x_n$​ adalah variabel.
-    $a_1$​,$a_2$​,…,$a_n​$ adalah koefisien (angka yang mengalikan variabel).
+    x_1,x_2​,…,x_n​ adalah variabel.
+    a_1​,a_2,…,a_n​ adalah koefisien (angka yang mengalikan variabel).
     b adalah konstanta (angka tetap).
 
 Contoh sederhana:
