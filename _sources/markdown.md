@@ -1,4 +1,4 @@
-# Persamaan Linear
+# Definisi Persamaan Linear
 
 
 ## What is MyST?
