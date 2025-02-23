@@ -15,11 +15,22 @@ Contoh sederhana:
 
 Ciri utama persamaan linear adalah bahwa variabelnya tidak memiliki eksponen selain 1 (misalnya, $x^2$ atau $y^3$ tidak ada dalam persamaan linear). Jika ada lebih dari satu variabel, solusinya adalah titik-titik yang saling berhubungan dalam bentuk garis lurus di grafik.
 
-## What is MyST?
+# Jenis Persamaan Linear
 
+Persamaan linear dapat diklasifikasikan berdasarkan jumlah variabelnya:
 
+## a) Persamaan Linear Satu Variabel (PLSV)
 
+Merupakan persamaan yang hanya memiliki satu variabel, berbentuk:
 
+    ax+b=0
+
+Contoh:
+
+    2x+3=0
+    Penyelesaian: x = -$$\frac{3}{2}$$
+
+Secara grafis, persamaan ini dapat direpresentasikan sebagai garis lurus pada sumbu-x (jika hanya ada satu variabel x).
 
 ## Sample Roles and Directives
 
