@@ -26,16 +26,32 @@ Persamaan linear dapat diklasifikasikan berdasarkan jumlah variabelnya:
 
 Merupakan persamaan yang hanya memiliki satu variabel, berbentuk:
 
-    ax+b=0
+ax+b=0
 
 Contoh:
 
-    2x+3=0
+2x+3=0
 Penyelesaian: x = -$\frac{3}{2}$
 
 Secara grafis, persamaan ini dapat direpresentasikan sebagai garis lurus pada sumbu-x (jika hanya ada satu variabel x).
 
-## Sample Roles and Directives
+## b) Persamaan Linear Dua Variabel (PLDV)
+
+Persamaan dengan dua variabel memiliki bentuk:
+ax+by=c
+
+Contoh:
+
+    4x+2y=10
+
+Solusinya berupa himpunan pasangan bilangan (x,y) yang memenuhi persamaan tersebut. Jika digambarkan dalam sistem koordinat Kartesius, persamaan ini membentuk garis lurus.
+
+Untuk menentukan titik potong dengan sumbu-x dan sumbu-y:
+
+    Jika y=0, maka 4x=10 → x=2.5 (titik potong dengan sumbu-x adalah (2.5,0)).
+    Jika x=0, maka 2y=10 → y=5 (titik potong dengan sumbu-y adalah (0,5)).
+
+Grafik persamaan ini adalah garis lurus yang melewati titik-titik tersebut.
 
 
 
