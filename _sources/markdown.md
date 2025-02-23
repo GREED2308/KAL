@@ -18,6 +18,9 @@ Ciri utama persamaan linear adalah bahwa variabelnya tidak memiliki eksponen sel
 # Jenis Persamaan Linear
 
 Persamaan linear dapat diklasifikasikan berdasarkan jumlah variabelnya:
+* Persamaan Linear Satu Variabel (PLSV)
+* Persamaan Linear Dua Variabel (PLDV)
+* Persamaan Linear Tiga Variabel atau Lebih
 
 ## a) Persamaan Linear Satu Variabel (PLSV)
 
