@@ -67,5 +67,24 @@ Contoh:
 Solusinya adalah titik-titik dalam ruang tiga dimensi. Jika jumlah variabel lebih dari tiga, solusinya membentuk ruang berdimensi lebih tinggi.
 
 
-## Learn more
+# Sifat-Sifat Persamaan Linear
 
+* Variabel memiliki pangkat 1
+* Grafiknya selalu berupa garis lurus
+* Solusinya bisa tunggal, banyak, atau tidak ada
+
+## Variabel memiliki pangkat 1
+
+* Tidak ada variabel berpangkat lebih tinggi seperti $x^2$ atau $y^3$.
+* Bentuk seperti 2x+3y=5 adalah linear, tetapi $x^2$+y=4 bukan.
+
+## Grafiknya selalu berupa garis lurus
+
+* Untuk satu variabel: garis di sumbu angka.
+* Untuk dua variabel: garis di bidang koordinat.
+* Untuk tiga variabel: bidang dalam ruang tiga dimensi.
+
+## Solusinya bisa tunggal, banyak, atau tidak ada
+
+* Persamaan satu variabel selalu memiliki satu solusi.
+* Persamaan dua variabel dapat memiliki satu solusi (jika dua garis berpotongan), tak hingga banyak solusi (jika dua garis berimpit), atau tidak ada solusi (jika dua garis sejajar).
