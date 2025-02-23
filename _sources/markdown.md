@@ -28,7 +28,7 @@ Merupakan persamaan yang hanya memiliki satu variabel, berbentuk:
 Contoh:
 
     2x+3=0
-    Penyelesaian: x = -$$\frac{3}{2}$$
+Penyelesaian: x = -$$\frac{3}{2}$$
 
 Secara grafis, persamaan ini dapat direpresentasikan sebagai garis lurus pada sumbu-x (jika hanya ada satu variabel x).
 
