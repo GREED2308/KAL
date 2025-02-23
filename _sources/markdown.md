@@ -55,7 +55,16 @@ Grafik persamaan ini adalah garis lurus yang melewati titik-titik tersebut.
 
 
 
-## Citations
+## c) Persamaan Linear Tiga Variabel atau Lebih
+
+Jika terdapat tiga variabel, bentuknya:
+ax+by+cz=d
+
+Contoh:
+
+* 3x+2y−z=5
+
+Solusinya adalah titik-titik dalam ruang tiga dimensi. Jika jumlah variabel lebih dari tiga, solusinya membentuk ruang berdimensi lebih tinggi.
 
 
 ## Learn more
