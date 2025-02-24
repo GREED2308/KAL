@@ -14,28 +14,24 @@ title: 'Penyelesaian Sistem Persamaan '
 Contoh Soal 1
 
 \begin{aligned}
-x_1 + 2x_2 + 3x_3 &= 6 \
-
-2x_1 + 4x_2 + 6x_3 &= 12 \
-
+x_1 + 2x_2 + 3x_3 &= 6 \\
+2x_1 + 4x_2 + 6x_3 &= 12 \\
 x_3 - x_2 &= 2
 \end{aligned}
 
 Matriks augmented:
 
 \begin{bmatrix}
-1 & 2 & 3 & | 6 \
-
-2 & 4 & 6 & | 12 \
-
+1 & 2 & 3 & | 6 \\
+2 & 4 & 6 & | 12 \\
 0 & -1 & 1 & | 2
 \end{bmatrix}
 
 Baris kedua dikurangi 2 kali baris pertama:
 
 \begin{bmatrix}
-1 & 2 & 3 & | 6 \
-0 & 0 & 0 & | 0 \
+1 & 2 & 3 & | 6 \\
+0 & 0 & 0 & | 0 \\
 0 & -1 & 1 & | 2
 \end{bmatrix}
 
