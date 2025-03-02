@@ -13,17 +13,19 @@ title: 'Penyelesaian Sistem Persamaan '
 
 Contoh Soal 1
 
-$x_1 + 2x_2 + 3x_3 &= 6$
-$2x_1 + 4x_2 + 6x_3 &= 12$
-$x_3 - x_2 &= 2$
+$x_1 + 2x_2 + 3x_3 = 6$
+
+$2x_1 + 4x_2 + 6x_3 = 12$
+
+$x_3 - x_2 = 2$
 
 Matriks augmented:
 
-$1 & 2 & 3 & | 6 
+1  2  3  | 6 
 
-2 & 4 & 6 & | 12
+2  4  6  | 12
 
-0 & -1 & 1 & | 2$
+0  -1  1  | 2
 
 Baris kedua dikurangi 2 kali baris pertama:
 
