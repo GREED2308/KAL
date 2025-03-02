@@ -403,9 +403,14 @@ document.write(`
 <section id="eleminasi-gauss">
 <h2>Eleminasi Gauss<a class="headerlink" href="#eleminasi-gauss" title="Link to this heading">#</a></h2>
 <p>Contoh Soal 1</p>
-<p><span class="math notranslate nohighlight">\(x_1 + 2x_2 + 3x_3 = 6\)</span></p>
-<p><span class="math notranslate nohighlight">\(2x_1 + 4x_2 + 6x_3 = 12\)</span></p>
-<p><span class="math notranslate nohighlight">\(x_3 - x_2 = 2\)</span></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{aligned}
+x_1 + 2x_2 + 3x_3 &amp;= 6 \\
+2x_1 + 4x_2 + 6x_3 &amp;= 12 \\
+x_3 - x_2 &amp;= 2
+\end{aligned}
+\end{split}\]</div>
 <p>Matriks augmented:</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}
@@ -438,30 +443,45 @@ x_3 &amp;= t, \quad t \in \mathbb{R}.
 \end{split}\]</div>
 <hr class="docutils" />
 <p>Contoh Soal 2</p>
-<p><span class="math notranslate nohighlight">\(x_1 + x_2 + x_3 = 3\)</span></p>
-<p><span class="math notranslate nohighlight">\(2x_1 + 0x_2 + x_3 = 5\)</span></p>
-<p><span class="math notranslate nohighlight">\(x_1 - 2x_2 + 0x_3 = 3\)</span></p>
+<div class="math notranslate nohighlight">
+\[ \begin{align}\begin{aligned}
+$x_1 + x_2 + x_3 = 3$\\$2x_1 + 0x_2 + x_3 = 5$\\$x_1 - 2x_2 + 0x_3 = 3$
+\end{aligned}\end{align} \]</div>
 <p>Matriks augmented:</p>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 3 \
-2 &amp; 0 &amp; 1 &amp; | 5 \
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 3 \\
+2 &amp; 0 &amp; 1 &amp; | 5 \\
 1 &amp; -2 &amp; 0 &amp; | 3
-\end{bmatrix}</p>
+\end{bmatrix}
+\end{split}\]</div>
 <p>Eliminasi dengan mengurangi baris kedua dengan 2 kali baris pertama:</p>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 3 \
-0 &amp; -2 &amp; -1 &amp; | -1 \
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 3 \\
+0 &amp; -2 &amp; -1 &amp; | -1 \\
 1 &amp; -2 &amp; 0 &amp; | 3
-\end{bmatrix}</p>
-<p>\begin{bmatrix}
-1 &amp; 1 &amp; 1 &amp; | 3 \
-0 &amp; -2 &amp; -1 &amp; | -1 \
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 3 \\
+0 &amp; -2 &amp; -1 &amp; | -1 \\
 0 &amp; -3 &amp; -1 &amp; | 0
-\end{bmatrix}</p>
+\end{bmatrix}
+\end{split}\]</div>
 <p>Eliminasi dengan mengubah baris ketiga:</p>
 <div class="math notranslate nohighlight">
 \[B_3 = B_3 - \frac{3}{2} B_2\]</div>
-<p>\begin{bmatrix} 1 &amp; 1 &amp; 1 &amp; | 3 \ 0 &amp; -2 &amp; -1 &amp; | -1 \ 0 &amp; 0 &amp; \frac{1}{2} &amp; | -\frac{3}{2} \end{bmatrix}</p>
+<div class="math notranslate nohighlight">
+\[\begin{bmatrix}
+1 &amp; 1 &amp; 1 &amp; | 3 \
+0 &amp; -2 &amp; -1 &amp; | -1 \
+0 &amp; 0 &amp; \frac{1}{2} &amp; | -\frac{3}{2}
+\end{bmatrix}\]</div>
 <p>Dari baris ketiga:</p>
 <div class="math notranslate nohighlight">
 \[x_3 = -3.\]</div>

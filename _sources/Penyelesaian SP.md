@@ -13,11 +13,13 @@ title: 'Penyelesaian Sistem Persamaan '
 
 Contoh Soal 1
 
-$x_1 + 2x_2 + 3x_3 = 6$
-
-$2x_1 + 4x_2 + 6x_3 = 12$
-
-$x_3 - x_2 = 2$
+$$
+\begin{aligned}
+x_1 + 2x_2 + 3x_3 &= 6 \\
+2x_1 + 4x_2 + 6x_3 &= 12 \\
+x_3 - x_2 &= 2
+\end{aligned}
+$$
 
 Matriks augmented:
 
@@ -56,39 +58,51 @@ $$
 
 Contoh Soal 2
 
+$$
 $x_1 + x_2 + x_3 = 3$
 
 $2x_1 + 0x_2 + x_3 = 5$
 
 $x_1 - 2x_2 + 0x_3 = 3$
+$$
 
 Matriks augmented:
 
+$$
 \begin{bmatrix}
 1 & 1 & 1 & | 3 \\
 2 & 0 & 1 & | 5 \\
 1 & -2 & 0 & | 3
 \end{bmatrix}
+$$
 
 Eliminasi dengan mengurangi baris kedua dengan 2 kali baris pertama:
 
+$$
 \begin{bmatrix}
 1 & 1 & 1 & | 3 \\
 0 & -2 & -1 & | -1 \\
 1 & -2 & 0 & | 3
 \end{bmatrix}
+$$
 
+$$
 \begin{bmatrix}
 1 & 1 & 1 & | 3 \\
 0 & -2 & -1 & | -1 \\
 0 & -3 & -1 & | 0
 \end{bmatrix}
+$$
 
 Eliminasi dengan mengubah baris ketiga:
 
 $$B_3 = B_3 - \frac{3}{2} B_2$$
 
-\begin{bmatrix} 1 & 1 & 1 & | 3 \ 0 & -2 & -1 & | -1 \ 0 & 0 & \frac{1}{2} & | -\frac{3}{2} \end{bmatrix}
+$$\begin{bmatrix}
+1 & 1 & 1 & | 3 \
+0 & -2 & -1 & | -1 \
+0 & 0 & \frac{1}{2} & | -\frac{3}{2}
+\end{bmatrix}$$
 
 Dari baris ketiga:
 
