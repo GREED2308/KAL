@@ -19,6 +19,11 @@ $2x_1 + 4x_2 + 6x_3 = 12$
 
 $x_3 - x_2 = 2$
 
+$$
+\int_0^1 x^2 \,dx = \frac{1}{3}
+$$
+
+
 Matriks augmented:
 
 1   2   3   |   6 
@@ -51,11 +56,11 @@ x_3 &= t, \quad t \in \mathbb{R}.
 
 Contoh Soal 2
 
-\begin{aligned}
-x_1 + x_2 + x_3 &= 3 \\
-2x_1 + 0x_2 + x_3 &= 5 \\
-x_1 - 2x_2 + 0x_3 &= 3
-\end{aligned}
+$x_1 + x_2 + x_3 = 3$
+
+$2x_1 + 0x_2 + x_3 = 5$
+
+$x_1 - 2x_2 + 0x_3 = 3$
 
 Matriks augmented:
 
