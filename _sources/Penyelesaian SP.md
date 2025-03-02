@@ -19,11 +19,6 @@ $2x_1 + 4x_2 + 6x_3 = 12$
 
 $x_3 - x_2 = 2$
 
-$$
-\int_0^1 x^2 \,dx = \frac{1}{3}
-$$
-
-
 Matriks augmented:
 
 1   2   3   |   6 
@@ -34,11 +29,13 @@ Matriks augmented:
 
 Baris kedua dikurangi 2 kali baris pertama:
 
+$$
 \begin{bmatrix}
 1 & 2 & 3 & | 6 \\
 0 & 0 & 0 & | 0 \\
 0 & -1 & 1 & | 2
 \end{bmatrix}
+$$
 
 Baris kedua menjadi nol, menunjukkan bahwa sistem memiliki solusi tak hingga.
 Variabel bebas: , maka
