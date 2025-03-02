@@ -42,14 +42,15 @@ $$
 Baris kedua menjadi nol, menunjukkan bahwa sistem memiliki solusi tak hingga.
 Variabel bebas: , maka
 
-$x_2 = t - 2, \quad x_1 = -2x_2 - 3x_3 + 6 = -2(t-2) - 3t + 6 = -5t + 10.$
+$$x_2 = t - 2, \quad x_1 = -2x_2 - 3x_3 + 6 = -2(t-2) - 3t + 6 = -5t + 10.$$
 
+$$
 \begin{aligned}
 x_1 &= -5t + 10, \\
 x_2 &= t - 2, \\
 x_3 &= t, \quad t \in \mathbb{R}.
 \end{aligned}
-
+$$
 
 ---
 
