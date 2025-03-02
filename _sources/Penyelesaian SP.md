@@ -21,11 +21,13 @@ $x_3 - x_2 = 2$
 
 Matriks augmented:
 
-1   2   3   |   6 
-
-2   4   6   |  12
-
-0   -1  1   |   2
+$$
+\begin{bmatrix}
+1 & 2 & 3 & | 6 \\
+2 & 4 & 6 & | 12 \\
+0 & -1 & 1 & | 2
+\end{bmatrix}
+$$
 
 Baris kedua dikurangi 2 kali baris pertama:
 
