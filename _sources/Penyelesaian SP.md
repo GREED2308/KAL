@@ -113,8 +113,8 @@ $$-2x_2 -1(-3) = -1 \Rightarrow -2x_2 +3 = -1 \Rightarrow -2x_2 = -4 \Rightarrow
 $$x_1 + 2 + (-3) = 3 \Rightarrow x_1 -1 = 3 \Rightarrow x_1 = 4.$$
 
 $$
-x_1 = 4
-x_2 = 2
+x_1 = 4 \\
+x_2 = 2 \\
 x_3 = -3
 $$
 
