@@ -62,6 +62,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'Penyelesaian SP';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Matrix" href="matrix.html" />
     <link rel="prev" title="Eliminasi Persamaan Linear" href="markdown-notebooks.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -187,6 +188,10 @@
 <li class="toctree-l1"><a class="reference internal" href="notebooks.html">Solusi Persamaan Linear</a></li>
 <li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Eliminasi Persamaan Linear</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Penyelesaian Sistem Persamaan Linear</a></li>
+<li class="toctree-l1"><a class="reference internal" href="matrix.html">Matrix</a></li>
+
+
+
 </ul>
 
     </div>
@@ -397,11 +402,30 @@ document.write(`
                   
   <section id="penyelesaian-sistem-persamaan-linear">
 <h1>Penyelesaian Sistem Persamaan Linear<a class="headerlink" href="#penyelesaian-sistem-persamaan-linear" title="Link to this heading">#</a></h1>
+<p>Penyelesaian Sistem Persamaan Linear (SPL) dapat dilakukan dengan beberapa metode, tergantung pada jumlah variabel dan karakteristik sistemnya.</p>
+<ul class="simple">
+<li><p>Metode Substitusi → Cocok untuk sistem dengan 2 variabel.</p></li>
+<li><p>Metode Eliminasi → Cocok untuk sistem dengan lebih dari 2 variabel.</p></li>
+<li><p>Metode Matriks → Efisien untuk sistem yang lebih besar.</p></li>
+<li><p>Metode Grafik → Hanya cocok untuk visualisasi pada sistem 2 variabel.</p></li>
+</ul>
 <section id="operasi-baris-elementer">
 <h2>Operasi Baris Elementer<a class="headerlink" href="#operasi-baris-elementer" title="Link to this heading">#</a></h2>
+<p>Operasi Baris Elementer (OBE) adalah teknik yang digunakan dalam manipulasi matriks untuk menyelesaikan sistem persamaan linear, menemukan invers matriks, dan berbagai aplikasi lainnya.</p>
+<ul class="simple">
+<li><p>Operasi Baris Elementer (OBE) digunakan untuk menyelesaikan SPL, menghitung invers matriks, dan berbagai manipulasi matriks lainnya.</p></li>
+<li><p>Terdapat tiga operasi utama: pertukaran baris, perkalian baris dengan skalar, dan penjumlahan baris.</p></li>
+<li><p>OBE adalah dasar dari metode Eliminasi Gauss, Eliminasi Gauss-Jordan, dan metode matriks lainnya.</p></li>
+</ul>
 </section>
 <section id="eleminasi-gauss">
 <h2>Eleminasi Gauss<a class="headerlink" href="#eleminasi-gauss" title="Link to this heading">#</a></h2>
+<p>Metode Eliminasi Gauss adalah teknik penyelesaian Sistem Persamaan Linear (SPL) dengan mengubah matriks augmented ke bentuk segitiga atas menggunakan Operasi Baris Elementer (OBE).</p>
+<ul class="simple">
+<li><p>Eliminasi Gauss digunakan untuk mengubah matriks augmented menjadi bentuk segitiga atas</p></li>
+<li><p>Setelah bentuk segitiga atas diperoleh, digunakan substitusi balik untuk menyelesaikan sistem</p></li>
+<li><p>Metode ini lebih cepat dibanding substitusi biasa, terutama untuk sistem dengan banyak variabel</p></li>
+</ul>
 <p>Contoh Soal 1</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}
@@ -611,6 +635,15 @@ x_3 &amp;= t, \quad t \in \mathbb{R}.
         <p class="prev-next-subtitle">previous</p>
         <p class="prev-next-title">Eliminasi Persamaan Linear</p>
       </div>
+    </a>
+    <a class="right-next"
+       href="matrix.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Matrix</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
                 </footer>

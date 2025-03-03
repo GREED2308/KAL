@@ -5,11 +5,28 @@ title: 'Penyelesaian Sistem Persamaan '
 
 ## Penyelesaian Sistem Persamaan Linear
 
+Penyelesaian Sistem Persamaan Linear (SPL) dapat dilakukan dengan beberapa metode, tergantung pada jumlah variabel dan karakteristik sistemnya.
+
+* Metode Substitusi → Cocok untuk sistem dengan 2 variabel.
+* Metode Eliminasi → Cocok untuk sistem dengan lebih dari 2 variabel.
+* Metode Matriks → Efisien untuk sistem yang lebih besar.
+* Metode Grafik → Hanya cocok untuk visualisasi pada sistem 2 variabel.
 
 ### Operasi Baris Elementer
 
+Operasi Baris Elementer (OBE) adalah teknik yang digunakan dalam manipulasi matriks untuk menyelesaikan sistem persamaan linear, menemukan invers matriks, dan berbagai aplikasi lainnya.
+
+* Operasi Baris Elementer (OBE) digunakan untuk menyelesaikan SPL, menghitung invers matriks, dan berbagai manipulasi matriks lainnya.
+* Terdapat tiga operasi utama: pertukaran baris, perkalian baris dengan skalar, dan penjumlahan baris.
+* OBE adalah dasar dari metode Eliminasi Gauss, Eliminasi Gauss-Jordan, dan metode matriks lainnya.
 
 ### Eleminasi Gauss
+
+Metode Eliminasi Gauss adalah teknik penyelesaian Sistem Persamaan Linear (SPL) dengan mengubah matriks augmented ke bentuk segitiga atas menggunakan Operasi Baris Elementer (OBE).
+
+* Eliminasi Gauss digunakan untuk mengubah matriks augmented menjadi bentuk segitiga atas
+* Setelah bentuk segitiga atas diperoleh, digunakan substitusi balik untuk menyelesaikan sistem
+* Metode ini lebih cepat dibanding substitusi biasa, terutama untuk sistem dengan banyak variabel
 
 Contoh Soal 1
 
