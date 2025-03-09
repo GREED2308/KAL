@@ -277,4 +277,4 @@ x_3 = p
 \end{cases}
 $$
 
-di mana $(p)$ adalah parameter bebas.
+di mana (p) adalah parameter bebas.
