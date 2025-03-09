@@ -270,7 +270,7 @@ $$
 x_1 + x_2 = 2 \quad (2)
 $$
 
-Karena baris pertama adalah 0 = 0, ini menunjukkan bahwa sistem ini memiliki solusi tak terhingga. Kita dapat menyelesaikan untuk salah satu variabel. Misalkan kita menyelesaikan untuk (x_1):
+Karena baris pertama adalah 0 = 0, ini menunjukkan bahwa sistem ini memiliki solusi tak terhingga. Kita dapat menyelesaikan untuk salah satu variabel. Misalkan kita menyelesaikan untuk $(x_1)$:
 
 $$ x_1 = 2 - x_2 $$
 
@@ -294,12 +294,15 @@ $$
 
 Dan jika kita memilih $(x_2 = 2)$, maka:
 
-$$ x_1 = 2 - 2 = 0 \quad \Rightarrow \quad (x_1, x_2) = (0, 2)
+$$
+x_1 = 2 - 2 = 0 \quad \Rightarrow \quad (x_1, x_2) = (0, 2)
 $$
 
 Dengan demikian, solusi dari sistem persamaan ini adalah semua pasangan $((x_1, x_2))$ yang memenuhi:
 
-$$ (x_1, x_2) = (2 - x_2, x_2) \quad \text{untuk setiap } x_2 \in \mathbb{R} $$
+$$
+(x_1, x_2) = (2 - x_2, x_2) \quad \text{untuk setiap } x_2 \in \mathbb{R}
+$$
 
 Contoh Soal 4
 
