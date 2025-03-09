@@ -165,11 +165,13 @@ Sekarang kita akan mengeliminasi elemen-elemen di atas kolom ketiga.
 
 Maka hasilnya adalah:
 
-$$\begin{array}{ccc|c}
+$$
+\begin{array}{ccc|c}
 1 & 1 & 0 & \frac{8}{3} \\
 0 & -2 & 0 & -\frac{2}{3} \\
 0 & 0 & 1 & \frac{1}{3}
-\end{array}$$
+\end{array}
+$$
 
 
 Langkah 5: Normalisasi Baris Kedua
@@ -204,11 +206,13 @@ $$
 
 Solusi akhir dari persamaan diatas adalah: 
 
-$$\begin{array}{cc}
+$$
+\begin{array}{cc}
 x_1=\frac{7}{3} \\
 x_2=\frac{1}{3} \\
 x_3=\frac{1}{3}
-\end{array}$$
+\end{array}
+$$
 
 ---
 
