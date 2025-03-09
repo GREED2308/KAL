@@ -57,9 +57,12 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'markdown-notebooks';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Penyelesaian Sistem Persamaan Linear" href="Penyelesaian%20SP.html" />
     <link rel="prev" title="Solusi Persamaan Linear" href="notebooks.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -184,6 +187,12 @@
 
 <li class="toctree-l1"><a class="reference internal" href="notebooks.html">Solusi Persamaan Linear</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Eliminasi Persamaan Linear</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Penyelesaian%20SP.html">Penyelesaian Sistem Persamaan Linear</a></li>
+<li class="toctree-l1"><a class="reference internal" href="matrixx.html">Matrix</a></li>
+
+
+
+
 </ul>
 
     </div>
@@ -356,7 +365,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -372,6 +383,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#langkah-langkah-metode-eliminasi">Langkah-Langkah Metode Eliminasi</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -383,6 +402,18 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="eliminasi-persamaan-linear">
 <h1>Eliminasi Persamaan Linear<a class="headerlink" href="#eliminasi-persamaan-linear" title="Link to this heading">#</a></h1>
+<p>Eliminasi dalam persamaan linear adalah salah satu metode untuk menyelesaikan sistem persamaan linear dengan menghilangkan salah satu variabel sehingga persamaan dapat disederhanakan menjadi satu variabel saja.</p>
+<section id="langkah-langkah-metode-eliminasi">
+<h2>Langkah-Langkah Metode Eliminasi<a class="headerlink" href="#langkah-langkah-metode-eliminasi" title="Link to this heading">#</a></h2>
+<p>Misalkan kita memiliki sistem persamaan linear dua variabel berikut:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{aligned}
+a_1x+b_1y = c_1\\
+a_2x+b_2y = c_2
+\end{aligned}
+\end{split}\]</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -424,12 +455,36 @@ document.write(`
         <p class="prev-next-title">Solusi Persamaan Linear</p>
       </div>
     </a>
+    <a class="right-next"
+       href="Penyelesaian%20SP.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Penyelesaian Sistem Persamaan Linear</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#langkah-langkah-metode-eliminasi">Langkah-Langkah Metode Eliminasi</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

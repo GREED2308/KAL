@@ -13,3 +13,16 @@ kernelspec:
 ---
 
 # Eliminasi Persamaan Linear
+
+Eliminasi dalam persamaan linear adalah salah satu metode untuk menyelesaikan sistem persamaan linear dengan menghilangkan salah satu variabel sehingga persamaan dapat disederhanakan menjadi satu variabel saja.
+
+## Langkah-Langkah Metode Eliminasi
+
+Misalkan kita memiliki sistem persamaan linear dua variabel berikut:
+
+$$
+\begin{aligned}
+a_1x+b_1y = c_1\\
+a_2x+b_2y = c_2
+\end{aligned}
+$$
