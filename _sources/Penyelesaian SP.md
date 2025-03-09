@@ -239,7 +239,7 @@ $$
 \end{bmatrix}
 $$
 
-Selanjutnya, kita dapat menyelesaikan baris kedua untuk mengekspresikan $\(x_2\)$ dalam bentuk $\(x_3\)$:
+Selanjutnya, kita dapat menyelesaikan baris kedua untuk mengekspresikan $(x_2)$ dalam bentuk $(x_3)$:
 
 $$
 -1x_2 + 2x_3 = 1 \implies x_2 = 2x_3 - 1
