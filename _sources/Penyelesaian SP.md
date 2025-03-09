@@ -260,13 +260,11 @@ $$
 Karena kita memiliki dua persamaan dengan tiga variabel, kita dapat menyatakan solusi dalam bentuk parameter. Misalkan $(x_3 = p)$, maka:
 
 $$
-x_1 = 6 - 2p
-$$
-$$
-x_2 = 2p - 1
-$$
-$$
+\begin{aligned}
+x_1 = 6 - 2p \\
+x_2 = 2p - 1 \\
 x_3 = p
+\end{aligned}
 $$
 
 Jadi, solusi umum dari sistem persamaan ini adalah:
@@ -279,4 +277,4 @@ x_3 = p
 \end{cases}
 $$
 
-di mana \(p\) adalah parameter bebas.
+di mana $(p)$ adalah parameter bebas.
