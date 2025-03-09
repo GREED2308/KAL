@@ -214,7 +214,7 @@ x_3=\frac{1}{3}
 \end{array}
 $$
 
-<iframe src="https://www.geogebra.org/classic/jmccwhfc?embed" width="500" height="300" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
+<iframe src="https://www.geogebra.org/classic/jmccwhfc?embed" width="840" height="540" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 
 ---
 
