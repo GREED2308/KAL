@@ -101,11 +101,13 @@ $$
 
 Penyelesaian : 
 
-$$\begin{array}{ccc|c}
+$$
+\begin{array}{ccc|c}
 1 & 1 & 1 & 3 \\
 2 & 0 & 1 & 5 \\
 1 & 2 & 0 & 3
-\end{array}$$
+\end{array}
+$$
 
 Langkah 1: Eliminasi Baris Pertama
 Kita akan mengeliminasi elemen di bawah elemen pertama pada kolom pertama dengan mengurangi baris kedua dengan 2 kali baris pertama dan mengurangi baris ketiga dengan baris pertama.
@@ -115,11 +117,13 @@ Kita akan mengeliminasi elemen di bawah elemen pertama pada kolom pertama dengan
 
 Maka hasilnya adalah:
 
-$$\begin{array}{ccc|c}
+$$
+\begin{array}{ccc|c}
 1 & 1 & 1 & 3 \\
 0 & -2 & -1 & -1 \\
 0 & 1 & -1 & 0
-\end{array}$$
+\end{array}
+$$
 
 Langkah 2: Eliminasi Baris Kedua
 Sekarang kita akan mengeliminasi elemen di bawah elemen kedua pada kolom kedua dengan menambah baris ketiga dengan setengah baris kedua.
@@ -129,11 +133,13 @@ Sekarang kita akan mengeliminasi elemen di bawah elemen kedua pada kolom kedua d
 Hasilnya adalah:
 
 
-$$\begin{array}{ccc|c}
+$$
+\begin{array}{ccc|c}
 1 & 1 & 1 & 3 \\
 0 & -2 & -1 & -1 \\
 0 & 0 & -\frac{3}{2} & -\frac{1}{2}
-\end{array}$$
+\end{array}
+$$
 
 Langkah 3: Normalisasi Baris Ketiga
 Kita akan mengalikan baris ketiga dengan $(-\frac{2}{3}\)$ untuk menjadikan elemen di baris ketiga, kolom ketiga menjadi 1:
@@ -142,11 +148,13 @@ Kita akan mengalikan baris ketiga dengan $(-\frac{2}{3}\)$ untuk menjadikan elem
 
 Hasilnya menjadi:
 
-$$\begin{array}{ccc|c}
+$$
+\begin{array}{ccc|c}
 1 & 1 & 1 & 3 \\
 0 & -2 & -1 & -1 \\
 0 & 0 & 1 & \frac{1}{3}
-\end{array}$$
+\end{array}
+$$
 
 
 Langkah 4: Eliminasi Kolom Ketiga
@@ -171,11 +179,13 @@ Kita akan mengalikan baris kedua dengan -1/2 untuk menjadikan elemen di baris ke
 
 Hasilnya menjadi:
 
-$$\begin{array}{ccc|c}
+$$
+\begin{array}{ccc|c}
 1 & 1 & 0 & \frac{8}{3} \\
 0 & 1 & 0 & \frac{1}{3} \\
 0 & 0 & 1 & \frac{1}{3}
-\end{array}$$
+\end{array}
+$$
 
 Langkah 6: Eliminasi Kolom Kedua
 Sekarang kita akan mengeliminasi elemen di atas kolom kedua.
@@ -184,14 +194,14 @@ Sekarang kita akan mengeliminasi elemen di atas kolom kedua.
 
 Hasil akhirnya menjadi:
 
-$$\begin{array}{ccc|c}
+$$
+\begin{array}{ccc|c}
 1 & 0 & 0 & \frac{7}{3} \\
 0 & 1 & 0 & \frac{1}{3} \\
 0 & 0 & 1 & \frac{1}{3}
-\end{array}$$
+\end{array}
+$$
 
-
-Solusi
 Solusi akhir dari persamaan diatas adalah: 
 
 $$\begin{array}{cc}
