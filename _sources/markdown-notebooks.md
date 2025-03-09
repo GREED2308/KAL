@@ -26,3 +26,14 @@ a_1x+b_1y = c_1\\
 a_2x+b_2y = c_2
 \end{aligned}
 $$
+1. samakan koefisien salah satu variabel
+
+* pilih variabel yang akan dieliminasi (misalnya, $x$ atau $y$ ).
+
+* Kalikan salah satu atau kedua persamaan dengan bilangan tertentu sehingga koefisien variabel tersebut menjadi sama.
+
+2. Kurangkan atau jumlahkan kedua persamaan
+
+* Jika koefisien variabel yang akan dieliminasi sama, gunakan operasi pengurangan atau penjumlahan untuk menghilangkannya.
+
+* Ini akan menghasilkan persamaan baru dengan satu variabel saja.
