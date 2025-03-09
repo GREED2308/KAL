@@ -92,65 +92,113 @@ $$
 Contoh Soal 2
 
 $$
-\begin{aligned}
-x_1 + x_2 + x_3 = 3 \\
-2x_1 + x_3 = 5 \\
-x_1 + 2x_2 = 3
-\end{aligned}
+\begin{array}{cc}
+x_1+x_2+x_3=3\\
+2x_1+x_3=5\\
+x_1+2x_2=3
+\end{array}
 $$
 
-Matriks augmented:
+Penyelesaian : 
 
-$$
-\begin{bmatrix}
-1 & 1 & 1 & | 3 \\
-2 & 0 & 1 & | 5 \\
-1 & -2 & 0 & | 3
-\end{bmatrix}
-$$
+$$\begin{array}{ccc|c}
+1 & 1 & 1 & 3 \\
+2 & 0 & 1 & 5 \\
+1 & 2 & 0 & 3
+\end{array}$$
 
-Eliminasi dengan mengurangi baris kedua dengan 2 kali baris pertama:
+Langkah 1: Eliminasi Baris Pertama
+Kita akan mengeliminasi elemen di bawah elemen pertama pada kolom pertama dengan mengurangi baris kedua dengan 2 kali baris pertama dan mengurangi baris ketiga dengan baris pertama.
 
-$$
-\begin{bmatrix}
-1 & 1 & 1 & | 3 \\
-0 & -2 & -1 & | -1 \\
-1 & -2 & 0 & | 3
-\end{bmatrix}
-$$
+- Baris 2 → Baris 2 - 2 × Baris 1
+- Baris 3 → Baris 3 - Baris 1
 
-$$
-\begin{bmatrix}
-1 & 1 & 1 & | 3 \\
-0 & -2 & -1 & | -1 \\
-0 & -3 & -1 & | 0
-\end{bmatrix}
-$$
+Maka hasilnya adalah:
 
-Eliminasi dengan mengubah baris ketiga:
+$$\begin{array}{ccc|c}
+1 & 1 & 1 & 3 \\
+0 & -2 & -1 & -1 \\
+0 & 1 & -1 & 0
+\end{array}$$
 
-$$B_3 = B_3 - \frac{3}{2} B_2$$
+Langkah 2: Eliminasi Baris Kedua
+Sekarang kita akan mengeliminasi elemen di bawah elemen kedua pada kolom kedua dengan menambah baris ketiga dengan setengah baris kedua.
 
-$$\begin{bmatrix}
-1 & 1 & 1 & | 3 \\
-0 & -2 & -1 & | -1 \\
-0 & 0 & \frac{1}{2} & | -\frac{3}{2}
-\end{bmatrix}$$
+- Baris 3 → Baris 3 + 1/2 dikali baris 2
 
-Dari baris ketiga:
+Hasilnya adalah:
 
-$$x_3 = -3.$$
 
-$$-2x_2 -1(-3) = -1 \Rightarrow -2x_2 +3 = -1 \Rightarrow -2x_2 = -4 \Rightarrow x_2 = 2.$$
+$$\begin{array}{ccc|c}
+1 & 1 & 1 & 3 \\
+0 & -2 & -1 & -1 \\
+0 & 0 & -\frac{3}{2} & -\frac{1}{2}
+\end{array}$$
 
-$$x_1 + 2 + (-3) = 3 \Rightarrow x_1 -1 = 3 \Rightarrow x_1 = 4.$$
+Langkah 3: Normalisasi Baris Ketiga
+Kita akan mengalikan baris ketiga dengan \(-\frac{2}{3}\) untuk menjadikan elemen di baris ketiga, kolom ketiga menjadi 1:
 
-$$
-x_1 = 4 \\
-x_2 = 2 \\
-x_3 = -3
-$$
+- Baris 3 → -2/3 dikali baris 3
 
+Hasilnya menjadi:
+
+$$\begin{array}{ccc|c}
+1 & 1 & 1 & 3 \\
+0 & -2 & -1 & -1 \\
+0 & 0 & 1 & \frac{1}{3}
+\end{array}$$
+
+
+Langkah 4: Eliminasi Kolom Ketiga
+Sekarang kita akan mengeliminasi elemen-elemen di atas kolom ketiga.
+
+- Baris 1 → Baris 1 - Baris 3
+- Baris 2 → Baris 2 + Baris 3
+
+Maka hasilnya adalah:
+
+$$\begin{array}{ccc|c}
+1 & 1 & 0 & \frac{8}{3} \\
+0 & -2 & 0 & -\frac{2}{3} \\
+0 & 0 & 1 & \frac{1}{3}
+\end{array}$$
+
+
+Langkah 5: Normalisasi Baris Kedua
+Kita akan mengalikan baris kedua dengan -1/2 untuk menjadikan elemen di baris kedua, kolom kedua menjadi 1:
+
+- Baris 2 → -1/2 x baris 2
+
+Hasilnya menjadi:
+
+$$\begin{array}{ccc|c}
+1 & 1 & 0 & \frac{8}{3} \\
+0 & 1 & 0 & \frac{1}{3} \\
+0 & 0 & 1 & \frac{1}{3}
+\end{array}$$
+
+Langkah 6: Eliminasi Kolom Kedua
+Sekarang kita akan mengeliminasi elemen di atas kolom kedua.
+
+- Baris 1 → Baris 1 - Baris 2
+
+Hasil akhirnya menjadi:
+
+$$\begin{array}{ccc|c}
+1 & 0 & 0 & \frac{7}{3} \\
+0 & 1 & 0 & \frac{1}{3} \\
+0 & 0 & 1 & \frac{1}{3}
+\end{array}$$
+
+
+Solusi
+Solusi akhir dari persamaan diatas adalah: 
+
+$$\begin{array}{cc}
+x_1=\frac{7}{3} \\
+x_2=\frac{1}{3} \\
+x_3=\frac{1}{3}
+\end{array}$$
 
 ---
 
