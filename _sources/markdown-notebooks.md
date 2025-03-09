@@ -26,25 +26,26 @@ a_1x+b_1y = c_1\\
 a_2x+b_2y = c_2
 \end{aligned}
 $$
-1. Samakan koefisien salah satu variabel
+
+### 1. Samakan koefisien salah satu variabel
 
 * pilih variabel yang akan dieliminasi (misalnya, $x$ atau $y$ ).
 * Kalikan salah satu atau kedua persamaan dengan bilangan tertentu sehingga koefisien variabel tersebut menjadi sama.
 
-2. Kurangkan atau jumlahkan kedua persamaan
+### 2. Kurangkan atau jumlahkan kedua persamaan
 
 * Jika koefisien variabel yang akan dieliminasi sama, gunakan operasi pengurangan atau penjumlahan untuk menghilangkannya.
 * Ini akan menghasilkan persamaan baru dengan satu variabel saja.
 
-3. Selesaikan persamaan satu variabel
+### 3. Selesaikan persamaan satu variabel
 
 * Setelah didapat persamaan dengan satu variabel, selesaikan persamaan tersebut untuk menetukan nilai variabelnya.
 
-4. Substitusi nilai variabel yang ditemukan
+### 4. Substitusi nilai variabel yang ditemukan
 
 * Masukkan nilai variabel yang telah ditemukan ke salah satu persamaan awal untuk mendapatkan nilai variabel lainnya.
 
-**Contoh:**
+### **Contoh:**
 
 Selesaikan sistem persamaan berikut menggunakan metode eliminasi:
 
