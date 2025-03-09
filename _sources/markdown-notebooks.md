@@ -50,8 +50,8 @@ Selesaikan sistem persamaan berikut menggunakan metode eliminasi:
 
 $$
 \begin{aligned}
-2_x + 3_y = 12\\
-4_x - y = 5
+2x + 3y = 12\\
+4x - y = 5
 \end{aligned}
 $$
 
@@ -61,8 +61,8 @@ Samakan koefisien salah satu variabel. Kita pilih variabel $x$ untuk dieliminasi
 
 $$
 \begin{aligned}
-(2_x + 3_y = 12) \times 2 \\
-4_x - y = 5
+(2x + 3y = 12) \times 2 \\
+4x - y = 5
 \end{aligned}
 $$
 
@@ -70,8 +70,8 @@ Sekarang sistem persamaannya menjadi:
 
 $$
 \begin{aligned}
-4_x + 6_y = 24\\
-4_x - y = 5
+4x + 6y = 24\\
+4x - y = 5
 \end{aligned}
 $$
 
@@ -81,8 +81,8 @@ Kurangkan kedua persamaan:
 
 $$
 \begin{aligned}
-(4_x + 6_y) - (4_x - y) = 24 - 5 \\
-4_x + 6_y - 4_x - y = 19 \\
+(4x + 6y) - (4x - y) = 24 - 5 \\
+4x + 6y - 4x - y = 19 \\
 7_y = 19
 \end{aligned}
 $$
@@ -94,5 +94,29 @@ Selesaikan variabel $y$ :
 $$
 \begin{aligned}
 y = \frac{19}{7}
+\end{aligned}
+$$
+
+Langkah 4:
+
+Substitusi ke salah satu persamaan awal. Gunakan persamaan pertama:
+
+$$
+\begin{aligned}
+2x + 3y = 12 \\
+2x + 3 \times \frac{19}{7} = 12 \\
+2x + \frac{57}{7} = 12 \\
+2x = 12 - \frac{57}{7} \\
+2x = \frac{84}{7} - \frac{57}{7} \\
+2x = \frac{27}{7} \\
+x = \frac{27}{14}
+\end{aligned}
+$$
+
+Jadi, solusi persamaan tersebut adalah
+
+$$
+\begin{aligned}
+(\frac{27}{14} , \frac{19}{7})
 \end{aligned}
 $$
