@@ -218,7 +218,7 @@ $$
 Langkah pertama adalah membuat elemen di bawah pivot (elemen pertama di kolom pertama) menjadi nol. Kita lakukan operasi berikut:
 
 $$
-R_2 \leftarrow R_2 - R_1
+R_2 - R_1 \rightarrow R_2
 $$
 
 Setelah melakukan perhitungan, kita mendapatkan:
