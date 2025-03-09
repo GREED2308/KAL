@@ -1,0 +1,83 @@
+Traceback (most recent call last):
+  File "/usr/local/python/3.12.1/lib/python3.12/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/home/codespace/.local/lib/python3.12/site-packages/nbclient/client.py", line 1314, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/python/3.12.1/lib/python3.12/asyncio/base_events.py", line 684, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/nbclient/client.py", line 709, in async_execute
+    await self.async_execute_cell(
+  File "/home/codespace/.local/lib/python3.12/site-packages/nbclient/client.py", line 1062, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/home/codespace/.local/lib/python3.12/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+def penjumlahan(A, B):
+    hasil = []
+    for i in range(len(A)):
+        baris = []
+        for j in range(len(A[0])):
+            baris.append(A[i][j] + B[i][j])
+        hasil.append(baris)
+    return hasil
+
+# Input ukuran matriks
+baris = int(input("Masukkan jumlah baris: "))
+kolom = int(input("Masukkan jumlah kolom: "))
+
+# Input matriks A
+print("Masukkan elemen matriks A:")
+A = []
+for i in range(baris):
+    baris_A = []
+    for j in range(kolom):
+        baris_A.append(int(input(f"A: ")))
+    A.append(baris_A)
+
+# Input matriks B
+print("Masukkan elemen matriks B:")
+B = []
+for i in range(baris):
+    baris_B = []
+    for j in range(kolom):
+        baris_B.append(int(input(f"B: ")))
+    B.append(baris_B)
+
+# Hitung hasil penjumlahan
+proses = penjumlahan(A, B)
+
+# Cetak hasil
+print("Hasil penjumlahan matriks:")
+for baris in proses:
+    print(baris)
+------------------
+
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mStdinNotImplementedError[0m                  Traceback (most recent call last)
+Cell [0;32mIn[1], line 11[0m
+[1;32m      8[0m     [38;5;28;01mreturn[39;00m hasil
+[1;32m     10[0m [38;5;66;03m# Input ukuran matriks[39;00m
+[0;32m---> 11[0m baris [38;5;241m=[39m [38;5;28mint[39m([38;5;28;43minput[39;49m[43m([49m[38;5;124;43m"[39;49m[38;5;124;43mMasukkan jumlah baris: [39;49m[38;5;124;43m"[39;49m[43m)[49m)
+[1;32m     12[0m kolom [38;5;241m=[39m [38;5;28mint[39m([38;5;28minput[39m([38;5;124m"[39m[38;5;124mMasukkan jumlah kolom: [39m[38;5;124m"[39m))
+[1;32m     14[0m [38;5;66;03m# Input matriks A[39;00m
+
+File [0;32m~/.local/lib/python3.12/site-packages/ipykernel/kernelbase.py:1281[0m, in [0;36mKernel.raw_input[0;34m(self, prompt)[0m
+[1;32m   1279[0m [38;5;28;01mif[39;00m [38;5;129;01mnot[39;00m [38;5;28mself[39m[38;5;241m.[39m_allow_stdin:
+[1;32m   1280[0m     msg [38;5;241m=[39m [38;5;124m"[39m[38;5;124mraw_input was called, but this frontend does not support input requests.[39m[38;5;124m"[39m
+[0;32m-> 1281[0m     [38;5;28;01mraise[39;00m StdinNotImplementedError(msg)
+[1;32m   1282[0m [38;5;28;01mreturn[39;00m [38;5;28mself[39m[38;5;241m.[39m_input_request(
+[1;32m   1283[0m     [38;5;28mstr[39m(prompt),
+[1;32m   1284[0m     [38;5;28mself[39m[38;5;241m.[39m_parent_ident[[38;5;124m"[39m[38;5;124mshell[39m[38;5;124m"[39m],
+[1;32m   1285[0m     [38;5;28mself[39m[38;5;241m.[39mget_parent([38;5;124m"[39m[38;5;124mshell[39m[38;5;124m"[39m),
+[1;32m   1286[0m     password[38;5;241m=[39m[38;5;28;01mFalse[39;00m,
+[1;32m   1287[0m )
+
+[0;31mStdinNotImplementedError[0m: raw_input was called, but this frontend does not support input requests.
+
