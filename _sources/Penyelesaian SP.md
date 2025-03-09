@@ -76,8 +76,8 @@ $$
 Contoh Soal 2
 $$
 \begin{aligned}
-x_1 + x_2 + x_3 = 3
-2x_1 + 0x_2 + x_3 = 5
+x_1 + x_2 + x_3 = 3 \\
+2x_1 + 0x_2 + x_3 = 5 \\
 x_1 - 2x_2 + 0x_3 = 3
 \end{aligned}
 $$
