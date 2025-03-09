@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Matrix 5 &#8212; My sample book</title>
+    <title>Matrix &#8212; My sample book</title>
   
   
   
@@ -187,7 +187,7 @@
 <li class="toctree-l1"><a class="reference internal" href="notebooks.html">Solusi Persamaan Linear</a></li>
 <li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Eliminasi Persamaan Linear</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Penyelesaian%20SP.html">Penyelesaian Sistem Persamaan Linear</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Matrix 5</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Matrix</a></li>
 
 
 
@@ -377,7 +377,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Matrix 5</h1>
+    <h1>Matrix</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -387,7 +387,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Matrix 5</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Matrix</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definisi-matrix">Definisi matrix</a></li>
 </ul>
 </li>
@@ -422,8 +422,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="matrix-5">
-<h1>Matrix 5<a class="headerlink" href="#matrix-5" title="Link to this heading">#</a></h1>
+  <section id="matrix">
+<h1>Matrix<a class="headerlink" href="#matrix" title="Link to this heading">#</a></h1>
 <section id="definisi-matrix">
 <h2>Definisi matrix<a class="headerlink" href="#definisi-matrix" title="Link to this heading">#</a></h2>
 <p>Matriks adalah susunan angka yang disusun dalam bentuk baris dan kolom, seperti tabel. Setiap angka dalam matriks disebut elemen.
@@ -568,8 +568,10 @@ A + B =
     <span class="k">return</span> <span class="n">hasil</span>
 
 <span class="c1"># Input ukuran matriks</span>
-<span class="n">baris</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Masukkan jumlah baris: &quot;</span><span class="p">))</span>
-<span class="n">kolom</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Masukkan jumlah kolom: &quot;</span><span class="p">))</span>
+<span class="c1">#baris = int(input(&quot;Masukkan jumlah baris: &quot;))</span>
+<span class="c1">#kolom = int(input(&quot;Masukkan jumlah kolom: &quot;))</span>
+<span class="n">baris</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">kolom</span> <span class="o">=</span> <span class="mi">2</span>
 
 <span class="c1"># Input matriks A</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Masukkan elemen matriks A:&quot;</span><span class="p">)</span>
@@ -600,14 +602,17 @@ A + B =
 </div>
 </div>
 <div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Masukkan elemen matriks A:
+</pre></div>
+</div>
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
 <span class="ne">StdinNotImplementedError</span><span class="g g-Whitespace">                  </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">11</span>
-<span class="g g-Whitespace">      </span><span class="mi">8</span>     <span class="k">return</span> <span class="n">hasil</span>
-<span class="g g-Whitespace">     </span><span class="mi">10</span> <span class="c1"># Input ukuran matriks</span>
-<span class="ne">---&gt; </span><span class="mi">11</span> <span class="n">baris</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Masukkan jumlah baris: &quot;</span><span class="p">))</span>
-<span class="g g-Whitespace">     </span><span class="mi">12</span> <span class="n">kolom</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Masukkan jumlah kolom: &quot;</span><span class="p">))</span>
-<span class="g g-Whitespace">     </span><span class="mi">14</span> <span class="c1"># Input matriks A</span>
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">22</span>
+<span class="g g-Whitespace">     </span><span class="mi">20</span>     <span class="n">baris_A</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="g g-Whitespace">     </span><span class="mi">21</span>     <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">kolom</span><span class="p">):</span>
+<span class="ne">---&gt; </span><span class="mi">22</span>         <span class="n">baris_A</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;A: &quot;</span><span class="p">)))</span>
+<span class="g g-Whitespace">     </span><span class="mi">23</span>     <span class="n">A</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">baris_A</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">25</span> <span class="c1"># Input matriks B</span>
 
 <span class="nn">File ~/.local/lib/python3.12/site-packages/ipykernel/kernelbase.py:1281,</span> in <span class="ni">Kernel.raw_input</span><span class="nt">(self, prompt)</span>
 <span class="g g-Whitespace">   </span><span class="mi">1279</span> <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_allow_stdin</span><span class="p">:</span>
@@ -954,7 +959,7 @@ Hasil perkalian skalar:
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Matrix 5</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Matrix</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definisi-matrix">Definisi matrix</a></li>
 </ul>
 </li>

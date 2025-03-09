@@ -28,8 +28,10 @@ def penjumlahan(A, B):
     return hasil
 
 # Input ukuran matriks
-baris = int(input("Masukkan jumlah baris: "))
-kolom = int(input("Masukkan jumlah kolom: "))
+#baris = int(input("Masukkan jumlah baris: "))
+#kolom = int(input("Masukkan jumlah kolom: "))
+baris = 2
+kolom = 2
 
 # Input matriks A
 print("Masukkan elemen matriks A:")
@@ -58,15 +60,18 @@ for baris in proses:
     print(baris)
 ------------------
 
+----- stdout -----
+Masukkan elemen matriks A:
+------------------
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mStdinNotImplementedError[0m                  Traceback (most recent call last)
-Cell [0;32mIn[1], line 11[0m
-[1;32m      8[0m     [38;5;28;01mreturn[39;00m hasil
-[1;32m     10[0m [38;5;66;03m# Input ukuran matriks[39;00m
-[0;32m---> 11[0m baris [38;5;241m=[39m [38;5;28mint[39m([38;5;28;43minput[39;49m[43m([49m[38;5;124;43m"[39;49m[38;5;124;43mMasukkan jumlah baris: [39;49m[38;5;124;43m"[39;49m[43m)[49m)
-[1;32m     12[0m kolom [38;5;241m=[39m [38;5;28mint[39m([38;5;28minput[39m([38;5;124m"[39m[38;5;124mMasukkan jumlah kolom: [39m[38;5;124m"[39m))
-[1;32m     14[0m [38;5;66;03m# Input matriks A[39;00m
+Cell [0;32mIn[1], line 22[0m
+[1;32m     20[0m     baris_A [38;5;241m=[39m []
+[1;32m     21[0m     [38;5;28;01mfor[39;00m j [38;5;129;01min[39;00m [38;5;28mrange[39m(kolom):
+[0;32m---> 22[0m         baris_A[38;5;241m.[39mappend([38;5;28mint[39m([38;5;28;43minput[39;49m[43m([49m[38;5;124;43mf[39;49m[38;5;124;43m"[39;49m[38;5;124;43mA: [39;49m[38;5;124;43m"[39;49m[43m)[49m))
+[1;32m     23[0m     A[38;5;241m.[39mappend(baris_A)
+[1;32m     25[0m [38;5;66;03m# Input matriks B[39;00m
 
 File [0;32m~/.local/lib/python3.12/site-packages/ipykernel/kernelbase.py:1281[0m, in [0;36mKernel.raw_input[0;34m(self, prompt)[0m
 [1;32m   1279[0m [38;5;28;01mif[39;00m [38;5;129;01mnot[39;00m [38;5;28mself[39m[38;5;241m.[39m_allow_stdin:
