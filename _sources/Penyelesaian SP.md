@@ -201,7 +201,7 @@ Diberikan sistem persamaan:
 
 $$
 \begin{aligned}
-x_1 + x_2 = 5
+x_1 + x_2 = 5 \\
 x_1 + 2x_3 = 6
 \end{aligned}
 $$
