@@ -245,7 +245,7 @@ $$
 -1x_2 + 2x_3 = 1 \implies x_2 = 2x_3 - 1
 $$
 
-Sekarang kita substitusi \(x_2\) ke dalam persamaan pertama:
+Sekarang kita substitusi $(x_2)$ ke dalam persamaan pertama:
 
 $$
 x_1 + (2x_3 - 1) = 5
@@ -257,7 +257,7 @@ $$
 x_1 + 2x_3 - 1 = 5 \implies x_1 = 6 - 2x_3
 $$
 
-Karena kita memiliki dua persamaan dengan tiga variabel, kita dapat menyatakan solusi dalam bentuk parameter. Misalkan \(x_3 = p\), maka:
+Karena kita memiliki dua persamaan dengan tiga variabel, kita dapat menyatakan solusi dalam bentuk parameter. Misalkan $(x_3 = p)$, maka:
 
 $$
 x_1 = 6 - 2p
