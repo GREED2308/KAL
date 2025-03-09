@@ -57,7 +57,9 @@ $$
 
 Langkah 1:
 
-Samakan koefisien salah satu variabel. Kita pilih variabel $x$ untuk dieliminasi.Koefisien $x$ pada persamaan pertama adalah 2 dan pada persamaan kedua adalah 4. Agar sama, kalikan persamaan pertama dengan 2:
+Samakan koefisien salah satu variabel. Kita pilih variabel $x$ untuk dieliminasi
+
+Koefisien $x$ pada persamaan pertama adalah 2 dan pada persamaan kedua adalah 4. Agar sama, kalikan persamaan pertama dengan 2:
 
 $$
 \begin{aligned}
