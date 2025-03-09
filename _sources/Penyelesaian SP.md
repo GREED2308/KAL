@@ -77,7 +77,7 @@ x_1+x_3 = 6 - 4 \\
 x_1 = 2 - x_3
 $$
 
-Karna ada variabel bebas $$x_3 = t $$ Sehingga, solusi umum dari sistem persamaan tersebut adalah:
+Karna ada variabel bebas $x_3 = t $ Sehingga, solusi umum dari sistem persamaan tersebut adalah:
 
 $$
 \begin{aligned}
