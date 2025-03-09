@@ -74,6 +74,7 @@ $$
 ---
 
 Contoh Soal 2
+
 $$
 \begin{aligned}
 x_1 + x_2 + x_3 = 3 \\
@@ -81,6 +82,7 @@ x_1 + x_2 + x_3 = 3 \\
 x_1 - 2x_2 + 0x_3 = 3
 \end{aligned}
 $$
+
 Matriks augmented:
 
 $$
