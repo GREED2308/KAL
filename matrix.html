@@ -192,6 +192,7 @@
 
 
 
+
 </ul>
 
     </div>
@@ -409,7 +410,11 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#pengurangan">Pengurangan</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#perkalian">Perkalian</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#perkalian">Perkalian</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#penyelesaian-menggunakan-invers-matrix">Penyelesaian menggunakan invers matrix</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#sistem-persamaan-linear-dengan-menggunakan-invers-obe-operasi-baris-elementer">Sistem Persamaan Linear Dengan Menggunakan Invers OBE (Operasi Baris Elementer)</a></li>
 </ul>
 
             </nav>
@@ -901,6 +906,89 @@ Hasil perkalian skalar:
 </div>
 </div>
 </div>
+<section id="penyelesaian-menggunakan-invers-matrix">
+<h2>Penyelesaian menggunakan invers matrix<a class="headerlink" href="#penyelesaian-menggunakan-invers-matrix" title="Link to this heading">#</a></h2>
+</section>
+</section>
+<section id="sistem-persamaan-linear-dengan-menggunakan-invers-obe-operasi-baris-elementer">
+<h1>Sistem Persamaan Linear Dengan Menggunakan Invers OBE (Operasi Baris Elementer)<a class="headerlink" href="#sistem-persamaan-linear-dengan-menggunakan-invers-obe-operasi-baris-elementer" title="Link to this heading">#</a></h1>
+<p><span class="math notranslate nohighlight">\(-7x1-6x2-12x3=-33\)</span></p>
+<p><span class="math notranslate nohighlight">\(5x1+5x2+7x3=24\)</span></p>
+<p><span class="math notranslate nohighlight">\(x1+4x3=5\)</span></p>
+<p><span class="math notranslate nohighlight">\(A=\begin{bmatrix}-7&amp;-6&amp;-12\\5&amp;5&amp;7\\1&amp;0&amp;4\end{bmatrix}\)</span><br />
+<span class="math notranslate nohighlight">\(x=\begin{bmatrix}x_1\\x_2\\x_3\end{bmatrix}\)</span><br />
+<span class="math notranslate nohighlight">\(b=\begin{bmatrix}-33\\24\\5\end{bmatrix}\)</span>`</p>
+<p>Pertama Gabungkan matriks ( A ) dengan matriks identitas <span class="math notranslate nohighlight">\(( I )\)</span> untuk membentuk matriks augmented <span class="math notranslate nohighlight">\(( [A | I] )\)</span>:</p>
+<p><span class="math notranslate nohighlight">\([A | I] =
+\begin{bmatrix}
+-7 &amp; -6 &amp; -12 &amp; | 1 &amp; 0 &amp; 0 \\
+5 &amp; 5 &amp; 7 &amp; | 0 &amp; 1 &amp; 0 \\
+1 &amp; 0 &amp; 4 &amp; | 0 &amp; 0 &amp; 1
+\end{bmatrix}\)</span></p>
+<p>pakai OBE jadi yang bagian kanan menjadi <span class="math notranslate nohighlight">\(( A^{-1} )\)</span>.</p>
+<p>Lalu kita Ubah Elemen (1,1) Menjadi 1
+jadi Baris pertama dibagi dengan (-7):</p>
+<p><span class="math notranslate nohighlight">\(\begin{bmatrix}
+1 &amp; \frac{6}{7} &amp; \frac{12}{7} &amp; | -\frac{1}{7} &amp; 0 &amp; 0 \\
+5 &amp; 5 &amp; 7 &amp; | 0 &amp; 1 &amp; 0 \\
+1 &amp; 0 &amp; 4 &amp; | 0 &amp; 0 &amp; 1
+\end{bmatrix}\)</span></p>
+<p>Lalu Buat Elemen Kolom Pertama (2,1) dan (3,1) Menjadi 0</p>
+<ul class="simple">
+<li><p>Baris kedua: <span class="math notranslate nohighlight">\(( R_2 \to R_2 - 5 R_1 )\)</span></p></li>
+<li><p>Baris ketiga: <span class="math notranslate nohighlight">\(( R_3 \to R_3 - R_1 )\)</span></p></li>
+</ul>
+<p>Hasilnya:</p>
+<p><span class="math notranslate nohighlight">\(\begin{bmatrix}
+1 &amp; \frac{6}{7} &amp; \frac{12}{7} &amp; | -\frac{1}{7} &amp; 0 &amp; 0 \\
+0 &amp; \frac{5}{7} &amp; -\frac{1}{7} &amp; | \frac{5}{7} &amp; 1 &amp; 0 \\
+0 &amp; -\frac{6}{7} &amp; \frac{16}{7} &amp; | \frac{1}{7} &amp; 0 &amp; 1
+\end{bmatrix}\)</span></p>
+<p>Ubah Elemen (2,2) Menjadi 1
+Kita bagi baris kedua dengan <span class="math notranslate nohighlight">\(( \frac{5}{7} )\)</span>:</p>
+<p><span class="math notranslate nohighlight">\(\begin{bmatrix}
+1 &amp; \frac{6}{7} &amp; \frac{12}{7} &amp; | -\frac{1}{7} &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; -\frac{1}{5} &amp; | 1 &amp; \frac{7}{5} &amp; 0 \\
+0 &amp; -\frac{6}{7} &amp; \frac{16}{7} &amp; | \frac{1}{7} &amp; 0 &amp; 1
+\end{bmatrix}\)</span></p>
+<p>Setelah Itu Buat Elemen Kolom Kedua (1,2) dan (3,2) Menjadi 0</p>
+<ul class="simple">
+<li><p>Baris pertama: <span class="math notranslate nohighlight">\(( R_1 \to R_1 - \frac{6}{7} R_2 )\)</span></p></li>
+<li><p>Baris ketiga: <span class="math notranslate nohighlight">\(( R_3 \to R_3 + \frac{6}{7} R_2 )\)</span></p></li>
+</ul>
+<p>Hasilnya:</p>
+<p><span class="math notranslate nohighlight">\(\begin{bmatrix}
+1 &amp; 0 &amp; \frac{18}{35} &amp; | -\frac{13}{35} &amp; -\frac{42}{35} &amp; 0 \\
+0 &amp; 1 &amp; -\frac{1}{5} &amp; | 1 &amp; \frac{7}{5} &amp; 0 \\
+0 &amp; 0 &amp; \frac{22}{35} &amp; | \frac{13}{35} &amp; \frac{42}{35} &amp; 1
+\end{bmatrix}\)</span></p>
+<p>Ubah Elemen (3,3) Menjadi 1
+Kita bagi baris ketiga dengan <span class="math notranslate nohighlight">\(( \frac{22}{35} )\)</span>:</p>
+<p><span class="math notranslate nohighlight">\(\begin{bmatrix}
+1 &amp; 0 &amp; \frac{18}{35} &amp; | -\frac{13}{35} &amp; -\frac{42}{35} &amp; 0 \\
+0 &amp; 1 &amp; -\frac{1}{5} &amp; | 1 &amp; \frac{7}{5} &amp; 0 \\
+0 &amp; 0 &amp; 1 &amp; | \frac{13}{22} &amp; \frac{42}{22} &amp; \frac{35}{22}
+\end{bmatrix}\)</span></p>
+<p>Buat Elemen Kolom Ketiga (1,3) dan (2,3) Menjadi 0</p>
+<ul class="simple">
+<li><p>Baris pertama: <span class="math notranslate nohighlight">\(( R_1 \to R_1 - \frac{18}{35} R_3 )\)</span></p></li>
+<li><p>Baris kedua: <span class="math notranslate nohighlight">\(( R_2 \to R_2 + \frac{1}{5} R_3 )\)</span></p></li>
+</ul>
+<p>Hasilnya:</p>
+<p><span class="math notranslate nohighlight">\(\begin{bmatrix}
+1 &amp; 0 &amp; 0 &amp; | -3 &amp; 5 &amp; 2 \\
+0 &amp; 1 &amp; 0 &amp; | 2 &amp; 1 &amp; 1 \\
+0 &amp; 0 &amp; 1 &amp; | \frac{13}{22} &amp; \frac{21}{11} &amp; \frac{35}{22}
+\end{bmatrix}\)</span>
+Bagian kanan dari matriks ini adalah <span class="math notranslate nohighlight">\(( A^{-1} )\)</span>.</p>
+<p>Langkah 8: Hitung <span class="math notranslate nohighlight">\(( x = A^{-1} b )\)</span>
+Kita kalikan <span class="math notranslate nohighlight">\(( A^{-1} )\)</span> dengan <span class="math notranslate nohighlight">\(( b )\)</span>:</p>
+<p><span class="math notranslate nohighlight">\(x = A^{-1} b =
+\begin{bmatrix}
+-3 &amp; 5 &amp; 2
+\end{bmatrix}\)</span></p>
+<p>Sehingga diperoleh:</p>
+<p><span class="math notranslate nohighlight">\(x_1 = -3, \quad x_2 = 5, \quad x_3 = 2\)</span></p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -980,7 +1068,11 @@ Hasil perkalian skalar:
 </ul>
 </li>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#pengurangan">Pengurangan</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#perkalian">Perkalian</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#perkalian">Perkalian</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#penyelesaian-menggunakan-invers-matrix">Penyelesaian menggunakan invers matrix</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#sistem-persamaan-linear-dengan-menggunakan-invers-obe-operasi-baris-elementer">Sistem Persamaan Linear Dengan Menggunakan Invers OBE (Operasi Baris Elementer)</a></li>
 </ul>
 
   </nav></div>
