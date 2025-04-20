@@ -1027,62 +1027,69 @@ det(A) = (a \times d) - (b \times c) = hasil
 <h3>minor matrik<a class="headerlink" href="#minor-matrik" title="Link to this heading">#</a></h3>
 <p>Minor dari suatu elemen dalam matriks adalah determinan dari submatriks yang diperoleh dengan menghapus baris dan kolom yang memuat elemen tersebut.
 Contoh Minor Matriks</p>
-<p>matrix:
-$<span class="math notranslate nohighlight">\(
+<p>matrix:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
 A =
 \begin{pmatrix}
 1 &amp; 2 &amp; 3 \\
 4 &amp; 5 &amp; 6\\
 7 &amp; 8 &amp; 9
 \end{pmatrix}
-\)</span><span class="math notranslate nohighlight">\(
-Minor dari elemen \)</span>a_{11}<span class="math notranslate nohighlight">\( = 1 adalah determinan dari submatriks yang diperoleh dengan menghapus baris pertama dan kolom pertama:
-\)</span><span class="math notranslate nohighlight">\(
+\end{split}\]</div>
+<p>Minor dari elemen <span class="math notranslate nohighlight">\(a_{11}\)</span> = 1 adalah determinan dari submatriks yang diperoleh dengan menghapus baris pertama dan kolom pertama:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
 M_{11} =
 \begin{pmatrix}
 5 &amp; 6\\
 8 &amp; 9
 \end{pmatrix} = (5 \times 9) - (6 \times 8) = 45 -48 = -2
-\)</span>$</p>
+\end{split}\]</div>
 </section>
 <section id="cofaktor-matrik">
 <h3>cofaktor Matrik<a class="headerlink" href="#cofaktor-matrik" title="Link to this heading">#</a></h3>
-<p>Kofaktor dari elemen ( <span class="math notranslate nohighlight">\(a_{ij}\)</span> ) dalam suatu matriks adalah minor dari elemen tersebut yang dikalikan dengan faktor tanda (-1) berpangkat ( i + j ):
-$<span class="math notranslate nohighlight">\(
+<p>Kofaktor dari elemen ( <span class="math notranslate nohighlight">\(a_{ij}\)</span> ) dalam suatu matriks adalah minor dari elemen tersebut yang dikalikan dengan faktor tanda (-1) berpangkat ( i + j ):</p>
+<div class="math notranslate nohighlight">
+\[
 \begin{array}{cc}
 C_{ij} = (-1)^{i+j}\ M_{ij}
 \end{array} 
-\)</span>$
-<strong>Contoh kofaktor</strong></p>
-<p>Dari contoh sebelumnya, kofaktor untuk elemen <span class="math notranslate nohighlight">\((a_{12}=2)\)</span> adalah:
-$<span class="math notranslate nohighlight">\(
+\]</div>
+<p><strong>Contoh kofaktor</strong></p>
+<p>Dari contoh sebelumnya, kofaktor untuk elemen <span class="math notranslate nohighlight">\((a_{12}=2)\)</span> adalah:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
 M_{12} =
 \begin{bmatrix}
 4 &amp; 6\\
 7 &amp; 9
 \end{bmatrix}
-\)</span><span class="math notranslate nohighlight">\(
-Determinannya dihitung sebagai:
-\)</span><span class="math notranslate nohighlight">\(
+\end{split}\]</div>
+<p>Determinannya dihitung sebagai:</p>
+<div class="math notranslate nohighlight">
+\[
 \begin{array}{cc}
 det(M_{12}) = (4 \times 9) - (6 \times 7) = 36 - 42 = -6
 \end{array} 
-\)</span><span class="math notranslate nohighlight">\(
-\)</span><span class="math notranslate nohighlight">\(
+\]</div>
+<div class="math notranslate nohighlight">
+\[
 \begin{array}{cc}
 C_{12} = (-1)^{1+2} \times - (-6) = (-1)_3 \times -(-6) = 6
 \end{array} 
-\)</span>$
-Minor dan kofaktor memiliki peran penting dalam menghitung determinan matriks, terutama untuk matriks berordo lebih dari 2 x 2</p>
+\]</div>
+<p>Minor dan kofaktor memiliki peran penting dalam menghitung determinan matriks, terutama untuk matriks berordo lebih dari 2 x 2</p>
 </section>
 <section id="mencari-determinan-dengan-konsep-minor-dan-cofactor-matrik">
 <h3>mencari determinan dengan konsep minor dan cofactor matrik<a class="headerlink" href="#mencari-determinan-dengan-konsep-minor-dan-cofactor-matrik" title="Link to this heading">#</a></h3>
-<p>Untuk menghitung determinan menggunakan konsep minor dan kofaktor, kita menggunakan ekspansi kofaktor, yaitu:
-$<span class="math notranslate nohighlight">\(
+<p>Untuk menghitung determinan menggunakan konsep minor dan kofaktor, kita menggunakan ekspansi kofaktor, yaitu:</p>
+<div class="math notranslate nohighlight">
+\[
 \begin{array}{cc}
 det(A) = a_{i1}C_{i1}+a_{i2}C_{i2} + ... + a_{in}C_{in}
 \end{array}
-\)</span>$</p>
+\]</div>
 </section>
 </section>
 <section id="sistem-persamaan-linear-dengan-menggunakan-invers-obe-operasi-baris-elementer">
